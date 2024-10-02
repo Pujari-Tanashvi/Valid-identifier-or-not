@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identifier Validator</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">Identifier Validator</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index MAIN.html">HOME</a></li>
+                    <li><a href="index MAIN.html">DOCS</a></li>
+                    <li><a href="index.html">VALIDATE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="container">
+        <h1>Identifier Validator</h1>
+        <input type="text" id="identifierInput" placeholder="Enter identifier">
+        <button onclick="validateIdentifier()">Check</button>
+        <div id="result"></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
